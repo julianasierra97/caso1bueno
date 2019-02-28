@@ -14,6 +14,8 @@ private Buffer buffer;
     public void run() {
         while(true) {
             buffer.retirarMensaje();
+            if(Main.contadorClientes==10)
+            	break;
         }
 
     }

@@ -2,6 +2,7 @@ package src;
 
 public class Main {
 
+	static int contadorClientes = 0;
 
     public static void main(String[] args) {
         int numClientes= 10;

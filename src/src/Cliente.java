@@ -20,5 +20,6 @@ public class Cliente extends Thread {
             buffer.depositarMensaje(new Mensaje(1));
         }
         System.out.println("Acabe :)");
+        Main.contadorClientes++;
     }
 }
